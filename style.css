@@ -1,0 +1,138 @@
+*{margin: 0px;
+  padding: 0px;
+}
+
+/* navegador */
+.icono
+{
+   width: 100px; 
+}
+
+
+
+
+
+
+
+
+/* desarroladores */
+.conocer{
+
+  text-align: center;
+}
+
+.oradores{
+ text-align: center;
+}
+
+
+
+.cajas_desarrolladores{
+
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* imagen con texto */
+
+.contenedor {
+   display: flex;
+   flex-direction: row;
+
+   flex-wrap: wrap;
+ }
+
+ 
+ 
+ .imagen {
+   flex: 1;
+ }
+ 
+ .imagen img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .buenosairesoctubre{
+margin: 10px;
+
+
+ }
+
+
+ .texto {
+   flex: 1;
+   padding: 0 1em;
+  background-color: rgb(51,58,64);
+  color: white;
+ }
+
+
+
+
+
+
+
+
+/* formulario */
+.formulario_contenedor{
+
+width: 50%;
+margin: auto;
+text-align: center;
+padding: 10px;
+}
+
+
+.input{
+  margin: 0px 10px;
+
+}
+
+.textarea{
+margin: 10px 0px;
+width: 100%;
+}
+
+.recordatorio{
+text-align: left;
+padding: 5px;
+}
+
+
+
+
+
+/* footer */
+
+ footer nav ul {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   background-color: rgb(29, 64, 84);
+   height: 80px;
+ }
+ 
+ footer nav li {
+   margin: 30px 10px;
+   
+ }
+ 
+ footer nav a {
+   text-decoration: none;
+   color: rgb(255, 254, 233);
+   font-weight: normal;
+
+  
+ }
+ 
+ 
